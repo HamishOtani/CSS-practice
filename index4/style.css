@@ -1,0 +1,157 @@
+h1{
+    color: red;
+}
+
+.class-name{
+    color:blue
+}
+
+#id-name {
+    color: green;
+}
+
+.apple,h2{
+    color: chocolate;
+}
+
+.b-class,#orange{
+    color: darkcyan;
+}
+
+.narrow-down p{
+    color:coral
+}
+
+
+.child-element > p {
+    color: rgb(186, 46, 172);
+}
+
+.next-element+p{
+    color: crimson;
+}
+
+
+.pseudo-element::before {
+    content: '「';
+}
+
+.pseudo-element::after {
+    content: '」';
+}
+
+.pseudo-element2::first-letter {
+    color: rgb(224, 70, 139);
+}
+
+.background-color{
+    background-color: chartreuse;
+    width: 3cm;
+    height: 30mm;
+}
+
+.display-block1{
+    background-color: rgb(195, 121, 195);
+}
+
+.display-block2{
+    background-color: aquamarine;
+}
+
+
+.display-inline1{
+    background-color: coral;
+}
+
+.display-inline2{
+    background-color: #3da9fc;
+    
+}
+
+
+
+.display-inline-block1 {
+    display: inline-block;
+    background-color: #72c437;
+}
+
+.display-inline-block2 {
+    display: inline-block;
+    background-color: #3da9fc;
+    padding: 30px;
+}
+
+.display-none{
+    display:none;
+}
+
+.width-block{
+    background-color: #f4e949;
+    width: 100px;
+}
+
+.width-child{
+    background-color: aquamarine;
+}
+
+.width-parent2,
+.width-parent3{
+    width: 100px;
+}
+
+.width-child2{
+    background-color: rgb(138, 153, 236);
+    width: 100%;
+}
+
+
+.width-child3{
+    background-color: #3da9fc;
+    width: 50%;
+}
+
+.width-parent-none{
+    background-color: rgb(235, 179, 230);
+    width:50%;
+}
+
+.height{
+    background-color: khaki;
+    height: 100px;
+}
+
+.height-inner {
+    background-color: #ff8e3c;
+    width: 100px;
+    height: 150px;
+}
+
+.height-parent1{
+    background-color: #f4e949;
+}
+
+.height-child1{
+    background-color: #94c1a2;
+    height: 50%;
+}
+
+.height-parent2{
+    background-color: paleturquoise;
+    height: 100px;
+}
+
+.height-child2{
+    background-color: rgb(175, 147, 232);
+    height: 50%;
+}
+
+.pen{
+    background-color: goldenrod;
+    height: calc(100px + 100px);
+}
+
+.panaple{
+    background: cyan;
+    height: 50% + 100px;
+    width: calc(2em * 3);
+}
